@@ -1,0 +1,22 @@
+[
+  {
+    "Id": 1,
+    "Color": "#20e5b3",
+    "Position": 0
+  },
+  {
+    "Id": 2,
+    "Color": "#6b77b1",
+    "Position": 1
+  },
+  {
+    "Id": 3,
+    "Color": "#8d21cb",
+    "Position": 2
+  },
+  {
+    "Id": 4,
+    "Color": "#54cb17",
+    "Position": 3
+  }
+]
