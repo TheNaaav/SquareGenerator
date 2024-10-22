@@ -1,78 +1,88 @@
 import React, { useState, useEffect } from 'react';
-import { addSquare, fetchSquares } from './API/SquareApi';
+import { addSquare, fetchSquares, clearSquares } from './API/SquareApi';
 
 type Square = {
     id: number;     
     color: string;   
-    position: number;
 };
 
 const SquareGrid = () => {
     const [squares, setSquares] = useState<Square[]>([]);
 
     useEffect(() => {
-
-        // Definierar en asynkron funktion för att hämta kvadrater från API:t
         const loadSquares = async () => {
-            // Anropar en funktion som hämtar kvadraterna från API:t
             const squaresFromApi = await fetchSquares();
-            // Uppdaterar state med de hämtade kvadraterna, så de visas i gränssnittet
             setSquares(squaresFromApi);
         };
-        // Anropar den asynkrona funktionen för att ladda kvadrater när komponenten laddas
         loadSquares();
-        // Tom array [] innebär att detta endast körs en gång när komponenten först renderas
     }, []);
 
     const addMoreSquares = async () => {
         const newSquare = {
-            // Tilldela positionen som kvadratens index
-            position: squares.length,
-            // Tilldela en slumpmässig färg
-            color: getRandomColor(),  
+            color: getRandomColor(),
         };
-        // Spara den nya data via API:et
         const savedSquare = await addSquare(newSquare);
-        // Uppdatera listan
-        setSquares((prev) => [...prev, savedSquare]); 
-        console.log('Square saved:', savedSquare);
+        setSquares((prev) => [...prev, savedSquare]);
     };
 
-    // Funktion som genererar en slumpmässig färg
+    const handleClearSquares = async () => {
+        await clearSquares();
+        setSquares([]);
+    };
+
     const getRandomColor = (): string => {
-        let color: string; 
-        const backgroundColor = '#2d3748'; // Bakgrundsfärgen
+        let color: string;
+        const backgroundColor = '#2d3748';
 
         do {
-            // Genererar en slumpmässig färg i hexadecimalt format
             color = `#${Math.floor(Math.random() * 16777215).toString(16).padStart(6, '0')}`;
-        } while (!isColorValid(color, backgroundColor)); // Kontrollera om färgen är giltig
+        } while (!isColorValid(color, backgroundColor));
 
-        return color; // Returnera den giltiga slumpmässiga färgen
+        return color;
     };
 
-    
     const isColorValid = (color: string, backgroundColor: string): boolean => {
-        // Kontrollera att färgen inte är en dubblett och inte är samma som bakgrundsfärgen
         return !squares.some(square => square.color === color) && color !== backgroundColor;
     };
 
+    const size = Math.ceil(Math.sqrt(squares.length));
+    // Gruppera kvadraterna i en 2D array
+    const rows: Square[][] = [];
+    for (let i = 0; i < squares.length; i += size) {
+        rows.push(squares.slice(i, i + size));
+    }
+
     return (
-        <div className="flex flex-col items-center justify-center min-h-screen bg-gray-800">
-            <div className="grid grid-cols-4 gap-4">
-            {squares.map((square) => (
-            <div 
-                key={square.id} 
-                style={{ backgroundColor: square.color }}
-                className="w-20 h-20 m-2"
-            />
-            ))}
+        <div className="bg-gray-800 min-h-screen w-full flex flex-col items-center justify-center">
+            <div className="flex flex-row gap-4 mb-8">
+                <button 
+                    className="mt-4 px-4 py-2 bg-yellow-400 rounded-md text-black font-bold"
+                    onClick={addMoreSquares}>
+                    Add square
+                </button>
+                <button
+                    className="mt-4 px-4 py-2 bg-red-400 rounded-md text-black font-bold"
+                    onClick={handleClearSquares}>
+                    Clear
+                </button>
             </div>
-            <button 
-                className="bg-purple-500 text-white p-2 rounded mt-4 shadow-lg hover:bg-purple-700" 
-                onClick={addMoreSquares}>
-                Lägg till ruta
-            </button>
+            <div className="flex justify-center">
+                <div className="flex flex-col">
+                    {rows.map((row, rowIndex) => (
+                        <div className="flex flex-row" key={rowIndex}>
+                            {row.map((square) => (
+                                <div
+                                    key={square.id}
+                                    style={{ backgroundColor: square.color }}
+                                    className="w-16 h-16 m-1 border border-black rounded-md flex items-center justify-center"
+                                >
+                                    <span>{square.id}</span>
+                                </div>
+                            ))}
+                        </div>
+                    ))}
+                </div>
+            </div>
         </div>
     );
 };

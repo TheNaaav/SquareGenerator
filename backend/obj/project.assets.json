@@ -536,11 +536,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Workspace\\React\\SquareProject\\backend\\SquareGridApi.csproj",
+      "projectUniqueName": "M:\\Workspace\\SquareGenerator\\backend\\SquareGridApi.csproj",
       "projectName": "SquareGridApi",
-      "projectPath": "C:\\Workspace\\React\\SquareProject\\backend\\SquareGridApi.csproj",
+      "projectPath": "M:\\Workspace\\SquareGenerator\\backend\\SquareGridApi.csproj",
       "packagesPath": "C:\\Users\\navi\\.nuget\\packages\\",
-      "outputPath": "C:\\Workspace\\React\\SquareProject\\backend\\obj\\",
+      "outputPath": "M:\\Workspace\\SquareGenerator\\backend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

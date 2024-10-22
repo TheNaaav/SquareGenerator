@@ -44,5 +44,15 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "SquareGridApi.Controllers.SquaresController",
+    "Method": "ClearSquares",
+    "RelativePath": "api/squares",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]

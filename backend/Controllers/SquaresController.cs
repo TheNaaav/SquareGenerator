@@ -53,6 +53,15 @@ namespace SquareGridApi.Controllers
             return CreatedAtAction(nameof(GetSquares), new { id = newSquare.Id }, newSquare);
         }
 
+
+        [HttpDelete]
+        public ActionResult ClearSquares()
+        {
+            squares.Clear();
+            SaveSquaresToFile();
+            return NoContent();
+        }
+
         // Metod som läser in data från en JSON-fil
         private List<Square> LoadSquaresFromFile()
         {

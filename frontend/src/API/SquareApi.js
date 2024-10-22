@@ -18,3 +18,7 @@ export const addSquare = async (square) => {
     // Returnerar datan som API:t skickar tillbaka (den skapade kvadraten)
     return response.data;
 };
+
+export const clearSquares = async () => {
+    await axios.delete(API_URL);
+};

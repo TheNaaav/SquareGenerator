@@ -1,29 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Workspace\\React\\SquareProject\\backend\\",
+  "WorkspaceRootPath": "M:\\Workspace\\SquareGenerator\\backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C9C87BD6-D734-4D3C-A194-A15E92E394BE}|SquareGridApi.csproj|c:\\workspace\\react\\squareproject\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C9C87BD6-D734-4D3C-A194-A15E92E394BE}|SquareGridApi.csproj|m:\\workspace\\squaregenerator\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9C87BD6-D734-4D3C-A194-A15E92E394BE}|SquareGridApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9C87BD6-D734-4D3C-A194-A15E92E394BE}|SquareGridApi.csproj|c:\\workspace\\react\\squareproject\\backend\\square.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C9C87BD6-D734-4D3C-A194-A15E92E394BE}|SquareGridApi.csproj|m:\\workspace\\squaregenerator\\backend\\square.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9C87BD6-D734-4D3C-A194-A15E92E394BE}|SquareGridApi.csproj|solutionrelative:square.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9C87BD6-D734-4D3C-A194-A15E92E394BE}|SquareGridApi.csproj|c:\\workspace\\react\\squareproject\\backend\\squares.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C9C87BD6-D734-4D3C-A194-A15E92E394BE}|SquareGridApi.csproj|solutionrelative:squares.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9C87BD6-D734-4D3C-A194-A15E92E394BE}|SquareGridApi.csproj|c:\\workspace\\react\\squareproject\\backend\\squaregridapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{C9C87BD6-D734-4D3C-A194-A15E92E394BE}|SquareGridApi.csproj|solutionrelative:squaregridapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9C87BD6-D734-4D3C-A194-A15E92E394BE}|SquareGridApi.csproj|c:\\workspace\\react\\squareproject\\backend\\controllers\\squarescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C9C87BD6-D734-4D3C-A194-A15E92E394BE}|SquareGridApi.csproj|m:\\workspace\\squaregenerator\\backend\\controllers\\squarescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9C87BD6-D734-4D3C-A194-A15E92E394BE}|SquareGridApi.csproj|solutionrelative:controllers\\squarescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9C87BD6-D734-4D3C-A194-A15E92E394BE}|SquareGridApi.csproj|c:\\workspace\\react\\squareproject\\backend\\squaregridapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "AbsoluteMoniker": "D:0:0:{C9C87BD6-D734-4D3C-A194-A15E92E394BE}|SquareGridApi.csproj|m:\\workspace\\squaregenerator\\backend\\squares.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C9C87BD6-D734-4D3C-A194-A15E92E394BE}|SquareGridApi.csproj|solutionrelative:squares.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9C87BD6-D734-4D3C-A194-A15E92E394BE}|SquareGridApi.csproj|m:\\workspace\\squaregenerator\\backend\\squaregridapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{C9C87BD6-D734-4D3C-A194-A15E92E394BE}|SquareGridApi.csproj|solutionrelative:squaregridapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9C87BD6-D734-4D3C-A194-A15E92E394BE}|SquareGridApi.csproj|m:\\workspace\\squaregenerator\\backend\\squaregridapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{C9C87BD6-D734-4D3C-A194-A15E92E394BE}|SquareGridApi.csproj|solutionrelative:squaregridapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     }
   ],
@@ -46,11 +46,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "SquareGridApi.http",
-              "DocumentMoniker": "C:\\Workspace\\React\\SquareProject\\backend\\SquareGridApi.http",
+              "DocumentMoniker": "M:\\Workspace\\SquareGenerator\\backend\\SquareGridApi.http",
               "RelativeDocumentMoniker": "SquareGridApi.http",
-              "ToolTip": "C:\\Workspace\\React\\SquareProject\\backend\\SquareGridApi.http",
+              "ToolTip": "M:\\Workspace\\SquareGenerator\\backend\\SquareGridApi.http",
               "RelativeToolTip": "SquareGridApi.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
@@ -60,47 +60,47 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Workspace\\React\\SquareProject\\backend\\Program.cs",
+              "DocumentMoniker": "M:\\Workspace\\SquareGenerator\\backend\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Workspace\\React\\SquareProject\\backend\\Program.cs",
+              "ToolTip": "M:\\Workspace\\SquareGenerator\\backend\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAYwBIAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACAAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-16T22:17:17.052Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "squares.json",
-              "DocumentMoniker": "C:\\Workspace\\React\\SquareProject\\backend\\squares.json",
+              "DocumentMoniker": "M:\\Workspace\\SquareGenerator\\backend\\squares.json",
               "RelativeDocumentMoniker": "squares.json",
-              "ToolTip": "C:\\Workspace\\React\\SquareProject\\backend\\squares.json",
+              "ToolTip": "M:\\Workspace\\SquareGenerator\\backend\\squares.json",
               "RelativeToolTip": "squares.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-16T16:57:32.758Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-16T16:57:32.758Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "SquaresController.cs",
-              "DocumentMoniker": "C:\\Workspace\\React\\SquareProject\\backend\\Controllers\\SquaresController.cs",
+              "DocumentMoniker": "M:\\Workspace\\SquareGenerator\\backend\\Controllers\\SquaresController.cs",
               "RelativeDocumentMoniker": "Controllers\\SquaresController.cs",
-              "ToolTip": "C:\\Workspace\\React\\SquareProject\\backend\\Controllers\\SquaresController.cs",
+              "ToolTip": "M:\\Workspace\\SquareGenerator\\backend\\Controllers\\SquaresController.cs",
               "RelativeToolTip": "Controllers\\SquaresController.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAIwFAAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAwwEIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T15:36:54.438Z"
+              "WhenOpened": "2024-10-16T15:36:54.438Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Square.cs",
-              "DocumentMoniker": "C:\\Workspace\\React\\SquareProject\\backend\\Square.cs",
+              "DocumentMoniker": "M:\\Workspace\\SquareGenerator\\backend\\Square.cs",
               "RelativeDocumentMoniker": "Square.cs",
-              "ToolTip": "C:\\Workspace\\React\\SquareProject\\backend\\Square.cs",
+              "ToolTip": "M:\\Workspace\\SquareGenerator\\backend\\Square.cs",
               "RelativeToolTip": "Square.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -111,9 +111,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "SquareGridApi",
-              "DocumentMoniker": "C:\\Workspace\\React\\SquareProject\\backend\\SquareGridApi.csproj",
+              "DocumentMoniker": "M:\\Workspace\\SquareGenerator\\backend\\SquareGridApi.csproj",
               "RelativeDocumentMoniker": "SquareGridApi.csproj",
-              "ToolTip": "C:\\Workspace\\React\\SquareProject\\backend\\SquareGridApi.csproj",
+              "ToolTip": "M:\\Workspace\\SquareGenerator\\backend\\SquareGridApi.csproj",
               "RelativeToolTip": "SquareGridApi.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-10-16T15:54:29.298Z"
